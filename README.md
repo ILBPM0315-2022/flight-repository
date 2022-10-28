@@ -1,3 +1,3 @@
 # flight-repository
 
-A sample homework is storing data on flights.
+A sample homework storing data on flights.
