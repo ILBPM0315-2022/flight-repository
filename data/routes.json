@@ -3,7 +3,7 @@
     "destination": "Frankfurt",
     "country": "Germany",
     "duration": 105,
-    "operator": "DLH",
+    "operator": "Lufthansa",
     "flights": [
       {
         "number": "LH1337",
@@ -34,7 +34,7 @@
     "destination": "Rome",
     "country": "Italy",
     "duration": 110,
-    "operator": "WZZ",
+    "operator": "Wizz Air",
     "flights": [
       {
         "number": "W62341",
@@ -47,7 +47,7 @@
     "destination": "London",
     "country": "England",
     "duration": 100,
-    "operator": "WZZ",
+    "operator": "Wizz Air",
     "flights": [
       {
         "number": "W62205",
@@ -60,7 +60,7 @@
     "destination": "Valencia",
     "country": "Spain",
     "duration": 175,
-    "operator": "RYR",
+    "operator": "Ryanair",
     "flights": [
       {
         "number": "FR2301",

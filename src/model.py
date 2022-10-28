@@ -22,17 +22,17 @@ class Route:
 
     class Airline(Enum):
         """
-        Represents themes of LEGO sets.
+        Represents airlines.
 
-        * CITY = "City"
-        * HARRY_POTTER = "Harry Potter"
-        * STAR_WARS = "Star Wars"
-        * CREATOR_EXPERT = "Creator Expert"
-        """
         DLH = "Lufthansa",
         WZZ = "Wizz Air"
         RYR = "Ryanair"
-        KLM = "KML"
+        KLM = "KLM"
+        """
+        DLH = "Lufthansa"
+        WZZ = "Wizz Air"
+        RYR = "Ryanair"
+        KLM = "KLM"
 
     @dataclass
     class Flight:

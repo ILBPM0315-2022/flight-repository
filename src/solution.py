@@ -14,7 +14,13 @@ class Solution(Repository, Queries):
     def type_mapper(values: dict[str, any]) -> Route | Route.Flight:
         match values:
             case {"country": _}:
-                return Route(**values)
+                route = Route(**values)
+                route.operator = next(
+                    Route.Airline[entry.name]
+                    for entry in Route.Airline
+                    if entry.value == route.operator
+                )
+                return route
             case {"registration": _}:
                 return Route.Flight(**values)
 
