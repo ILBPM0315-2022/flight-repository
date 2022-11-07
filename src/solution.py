@@ -33,6 +33,7 @@ class Solution(Repository, Queries):
             airline: [
                 route
                 for route in self.entities
+                if route.operator == airline
             ]
             for airline in {
                 route.operator
